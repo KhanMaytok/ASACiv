@@ -1,0 +1,133 @@
+## Asari Foundation
+asarifoundation_civ = {
+	name = "Asari Foundation"
+	spawn_enabled = no # yes / no / always
+	
+	name_list = "asari_names"
+	ship_prefix = ""
+	
+	species_name = "Asari"
+	species_plural = "Asari"
+	species_adjective = "Asari"
+	species_class = "ASA"
+	species_bio = ""
+	trait = "trait_deviants"
+	trait = "trait_asari_gynogenetic"
+	trait = "trait_asari_age"
+	trait = "trait_charismatic"
+	portrait = "asari"
+	adjective = "Asari"
+	
+	authority = "auth_oligarchic"
+	civics = { "civic_asari_biotic_evo" "civic_shadow_council" }
+	government = gov_executive_committee
+	room = "ethic_materialist_room"
+	
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_materialist"
+	
+	flags = { asari_asf custom_start_screen }
+
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	planet_name = "Leusinia"
+	planet_class = "pc_continental"
+	system_name = "Eryia"
+	initializer = ""
+	graphical_culture = "asari_01"
+	city_graphical_culture = "asari_01"
+	empire_flag = {
+		icon={
+			category = "asari_civ"
+			file = "asari_flag_silver.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "sinus.dds"
+		}
+		colors = {
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender = female
+		name = "Ishta Linnadhiel"
+		portrait = "asari_6"
+		texture = 5
+		hair = 0
+		clothes = 89
+		ruler_title = "Executor"
+		ruler_title_female = "Executor"
+	}
+}
+
+## Asari Republics
+asarirepublics_civ = {
+	name = "Asari Republics"
+	spawn_enabled = no # yes / no / always
+	
+	name_list = "asari_names"
+	ship_prefix = ""
+	
+	species_name = "Asari"
+	species_plural = "Asari"
+	species_adjective = "Asari"
+	species_class = "ASA"
+	species_bio = ""
+	trait = "trait_deviants"
+	trait = "trait_asari_gynogenetic"
+	trait = "trait_asari_age"
+	trait = "trait_charismatic"
+	portrait = "asari"
+	adjective = "Asari"
+	
+	authority = "auth_democratic"
+	civics = { "civic_asari_biotic_evo" "civic_parliamentary_system" }
+	government = gov_direct_democracy
+	room = "ethic_xenophile_room"
+	
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_egalitarian"
+	
+	flags = { asari_asr custom_start_screen }
+
+	weapon = "tech_mass_drivers_1"
+	ftl = wormhole
+	
+	planet_name = "Thessia"
+	planet_class = "pc_continental"
+	system_name = "Parnitha"
+	initializer="asr_system_initializer"
+	graphical_culture = "asari_01"
+	city_graphical_culture = "asari_01"
+	empire_flag = {
+		icon={
+			category = "asari_civ"
+			file = "asari_flag_gold.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender = female
+		name = "Tevos"
+		portrait = "asari_3"
+		texture = 1
+		hair = 0
+		clothes = 70
+		ruler_title = "Councilor"
+		ruler_title_female = "Councilor"
+	}
+}

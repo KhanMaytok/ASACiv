@@ -1,0 +1,29 @@
+objectTypes = {
+	
+	###################
+	## ASARI HABITAT ##
+	###################
+	
+	## CENTRAL FRAME (Includes Anims!!) ##
+	pdxmesh = {
+		name = "asari_01_habitat_frame_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_habitat_frame.mesh"
+		scale = 2.0
+		
+		animation = { id = "idle" type = "asari_01_habitat_frame_idle_animation" }
+		animation = { id = "construction" type = "asari_01_habitat_frame_construction_animation" }
+	}
+	
+	## STATIC MESH ##
+	pdxmesh = {
+		name = "asari_01_habitat_primary_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_habitat.mesh"
+		scale = 2.0		
+	}
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,585 @@
+objectTypes = {
+		
+	#######  Turrets  #######	
+	
+	pdxmesh = {
+		name = "asari_01_turret_projectile_large_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_turret_projectile_large.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+				meshsettings = {
+			shader = "collision"
+	}
+	}	
+	
+	pdxmesh = {
+		name = "asari_01_turret_projectile_medium_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_turret_projectile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		scale = 1.0
+				meshsettings = {
+					shader = "collision"
+				}
+	}	
+	
+	pdxmesh = {
+		name = "asari_01_turret_projectile_small_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_turret_projectile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+				meshsettings = {
+					shader = "collision"
+				}
+	}	
+	
+	pdxmesh = {
+		name = "asari_01_turret_missile_large_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_turret_missile_large.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+				meshsettings = {
+					shader = "collision"
+				}
+	}	
+	
+	pdxmesh = {
+		name = "asari_01_turret_missile_medium_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_turret_missile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		scale = 1.0
+				meshsettings = {
+					shader = "collision"
+				}
+	}	
+	
+	pdxmesh = {
+		name = "asari_01_turret_missile_small_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_turret_missile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+				meshsettings = {
+					shader = "collision"
+				}
+	}	
+	
+	pdxmesh = {
+		name = "asari_01_turret_point_defence_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_turret_point_defence.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+				meshsettings = {
+					shader = "collision"
+				}
+	}
+	
+	######################################################
+	################## NEW ASARI SHIPS ###################
+	######################################################
+	
+	## EMPTY MESH ##
+	## NOTE: Used for most sections without an actual ship mesh!
+	pdxmesh = {
+    name = "asari_01_empty_mesh"
+    file = "gfx/models/locator.mesh"
+    scale = 1.0
+    
+    meshsettings = {
+        texture_diffuse = "nodiffuse.dds"
+        texture_normal = "nonormal.dds"
+        texture_specular = "nospec.dds"
+    }
+}
+	
+	#######################
+	#### NEW CORVETTES ####
+	#######################
+	
+	pdxmesh = {
+		name = "asari_01_corvette1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_corvette1.mesh"
+		scale = 1.8
+	}
+	
+	pdxmesh = {
+		name = "asari_01_corvette2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_corvette2.mesh"
+		scale = 2.2
+	}
+	
+	pdxmesh = {
+		name = "asari_01_corvette3_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_frigate.mesh"
+		scale = 1.6
+	}
+	
+	#################
+	#### FRIGATE ####
+	#################
+	
+	pdxmesh = {
+		name = "asari_01_frigate_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_frigate.mesh"
+		scale = 2.0
+	}
+	
+	########################
+	#### NEW DESTROYERS ####
+	########################
+	
+	pdxmesh = {
+		name = "asari_01_destroyer1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_destroyer1.mesh"
+		scale = 1.7
+	}
+	
+	pdxmesh = {
+		name = "asari_01_destroyer2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_destroyer2.mesh"
+		scale = 2.1
+	}
+	
+	######################
+	#### NEW CRUISERS ####
+	######################
+	
+	pdxmesh = {
+		name = "asari_01_cruiser1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_cruiser.mesh"
+		scale = 2.0
+	}
+	
+	pdxmesh = {
+		name = "asari_01_cruiser2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_cruiser2.mesh"
+		scale = 2.0
+	}
+	
+	## SPECIAL CRUISERS ##
+	
+	pdxmesh = {
+		name = "asari_01_specialcruiser1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_specialcruiser1.mesh"
+		scale = 1.4
+	}
+	
+	pdxmesh = {
+		name = "asari_01_specialcruiser2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_specialcruiser2.mesh"
+		scale = 1.75
+	}
+	
+	pdxmesh = {
+		name = "asari_01_science2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_science2.mesh"
+		scale = 1.8
+	}
+	
+	##################
+	#### CARRIERS ####
+	##################
+	
+	pdxmesh = {
+		name = "asari_01_lightcarrier_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_lightcarrier.mesh"
+		scale = 1.2
+	}
+	
+	pdxmesh = {
+		name = "asari_01_heavycarrier_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_heavycarrier.mesh"
+		scale = 1.2
+	}
+	
+	#########################
+	#### NEW BATTLESHIPS ####
+	#########################
+	
+	pdxmesh = {
+		name = "asari_01_battleship1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_battleship1.mesh"
+		scale = 1.5
+	}
+	
+	########################
+	#### SUPER CAPITALS ####
+	########################
+	
+	pdxmesh = {
+		name = "asari_01_supercapital1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_supercapital1.mesh"
+		scale = 0.9
+	}
+	
+	pdxmesh = {
+		name = "asari_01_supercapital2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_supercapital2.mesh"
+		scale = 0.9
+	}
+	
+	pdxmesh = {
+		name = "asari_01_supercapital3_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_supercapital3.mesh"
+		scale = 0.7
+	}
+	
+	############################
+	#### NEW CIVILIAN SHIPS ####
+	############################
+	
+	pdxmesh = {
+		name = "asari_01_science_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_science3.mesh"
+		scale = 1.2
+	}
+	
+	pdxmesh = {
+		name = "asari_01_transport_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_newtransport.mesh"
+		scale = 0.7
+	}
+	
+	pdxmesh = {
+		name = "asari_01_new_colony_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_colony.mesh"
+		scale = 2.2
+	}
+	
+	# Dome for Colony Ship!
+	# Note: scales must match colony ship scale above!!
+	pdxmesh = {
+		name = "asari_01_new_colony_dome_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_colony_dome.mesh"
+		scale = 2.2
+	}
+	
+	pdxmesh = {
+		name = "asari_01_construction_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_construction.mesh"
+		
+		animation = { id = "idle"						type = "asari_01_construction_idle_animation" }
+		animation = { id = "working"					type = "asari_01_construction_working_animation" }
+		animation = { id = "working_looping"			type = "asari_01_construction_working_looping_animation" }
+		
+		scale = 0.9
+	}
+	
+	####### SMALL SHIPS (ASARI) #######
+	
+	pdxmesh = {
+		name = "asari_01_bomber2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_corvette1.mesh"
+		scale = 0.3
+	}
+	
+	pdxmesh = {
+		name = "asari_01_fighter2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_corvette1.mesh"
+		scale = 0.3
+	}
+	
+	#################################################
+	################# END NEW SHIPS #################
+	#################################################
+	
+	#######  destroyer frame  #######
+	
+	#pdxmesh = {
+	#	name = "asari_01_destroyer_frame_mesh"
+	#	file = "gfx/models/ships/asari_01/asari_01_destroyer_frame.mesh"
+	#			animation = { id = "idle"			type = "asari_01_destroyer_frame_idle_animation" }
+	#			animation = { id = "death"			type = "asari_01_destroyer_frame_death_animation" }
+	#			animation = { id = "attack"			type = "asari_01_destroyer_frame_idle_animation" }				
+	#	scale = 1.0
+	#			meshsettings = {
+	#		shader = "PdxMeshShip"
+	#}
+	#}
+	
+	#######  cruiser frame  #######
+	
+	pdxmesh = {
+		name = "asari_01_cruiser_frame_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_cruiser_frame.mesh"
+				animation = { id = "idle"			type = "asari_01_cruiser_frame_idle_animation" }
+				animation = { id = "death"			type = "asari_01_cruiser_frame_death_animation" }
+				animation = { id = "death2"			type = "asari_01_cruiser_frame_death2_animation" }
+				animation = { id = "death3"			type = "asari_01_cruiser_frame_death3_animation" }
+				animation = { id = "attack"			type = "asari_01_cruiser_frame_idle_animation" }				
+		scale = 1.0
+	}
+	
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "asari_01_battleship_frame_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_battleship_frame.mesh"
+				animation = { id = "idle"			type = "asari_01_battleship_frame_idle_animation" }
+				animation = { id = "death"			type = "asari_01_battleship_frame_death_animation" }
+				animation = { id = "attack"			type = "asari_01_battleship_frame_idle_animation" }				
+		scale = 1.0
+	}
+	
+	####### SMALL SHIPS (AVIAN) #######	
+	
+	pdxmesh = {
+		name = "asari_01_bomber_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_bomber.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "asari_01_bomber_diffuse.dds"
+			texture_normal = "asari_01_bomber_normal.dds"
+			texture_specular = "asari_01_bomber_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+	
+		pdxmesh = {
+		name = "asari_01_fighter_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_fighter.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "asari_01_fighter_diffuse.dds"
+			texture_normal = "asari_01_fighter_normal.dds"
+			texture_specular = "asari_01_fighter_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+
+		pdxmesh = {
+		name = "asari_01_droppod_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_droppod.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "asari_01_droppod_diffuse.dds"
+			texture_normal = "asari_01_droppod_normal.dds"
+			texture_specular = "asari_01_droppod_specular.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+	
+
+	############
+	# STATIONS #	
+	############
+	
+	# Not used... why is this still here? :-)
+	pdxmesh = {
+		name = "asari_01_terraforming_station_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_terraforming_station.mesh"
+		animation = { id = "rotate"			type = "asari_01_terraforming_station_rotate_animation" }
+		animation = { id = "death"			type = "asari_01_terraforming_station_death_animation" }
+		
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "asari_01_stations_diffuse.dds"
+			texture_normal = "asari_01_stations_normal.dds"
+			texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		}
+		
+	}
+	
+	# Shipyard Frame (Tells modules where to go!)
+	pdxmesh = {
+		name = "asari_01_orbital_station_frame_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_neworbital_station_frame.mesh"
+		#file = "gfx/models/ships/asari_01/asari_01_orbital_station_frame.mesh"
+		scale = 2.0
+	}	
+	
+	##################
+	## NEW SHIPYARD ##
+	##################
+	pdxmesh = {
+		name = "asari_01_shipyard_station_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_shipyard_station.mesh"
+		scale = 1.5
+	}
+	
+	# Main Shipyard <-- OLD ONE, can delete along with resources (but not the textures!!) if not needed elsewhere.
+	pdxmesh = {
+		name = "asari_01_orbital_station_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_neworbital_station.mesh"
+		scale = 2.5
+	}
+	
+	##################
+	# MODULE SECTION #
+	##################
+	
+	#NOTE: Here for reference. Not presently used.
+	
+	# Assembly Tower
+	pdxmesh = {
+		name = "asari_01_orbital_station_assemblyyard_section_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_neworbital_station_assemblyyard_section.mesh"
+		scale = 2.0
+		#meshsettings = {
+		#	texture_diffuse = "asari_01_stations_diffuse.dds"
+		#	texture_normal = "asari_01_stations_normal.dds"
+		#	texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		#}
+	}	
+	
+	# Hangar Bay?
+	pdxmesh = {
+		name = "asari_01_orbital_station_hangarbay_section_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_neworbital_station_assemblyyard_section.mesh"
+		#file = "gfx/models/ships/asari_01/asari_01_orbital_station_hangarbay_section.mesh"
+		scale = 2.0
+		#meshsettings = {
+		#	texture_diffuse = "asari_01_stations_diffuse.dds"
+		#	texture_normal = "asari_01_stations_normal.dds"
+		#	texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		#}
+	}	
+	
+	# Refinery
+	pdxmesh = {
+		name = "asari_01_orbital_station_refinery_section_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_neworbital_station_assemblyyard_section.mesh"
+		#file = "gfx/models/ships/asari_01/asari_01_orbital_station_refinery_section.mesh"
+		#animation = { id = "rotate"			type = "asari_01_orbital_station_refinery_section_rotate_animation" }
+		
+		scale = 2.0
+		#meshsettings = {
+		#	texture_diffuse = "asari_01_stations_diffuse.dds"
+		#	texture_normal = "asari_01_stations_normal.dds"
+		#	texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		#}
+	}	
+	
+	# Science Tower
+	pdxmesh = {
+		name = "asari_01_orbital_station_science_section_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_neworbital_station_assemblyyard_section.mesh"
+		#file = "gfx/models/ships/asari_01/asari_01_orbital_station_science_section.mesh"
+		scale = 2.0
+		#meshsettings = {
+		#	texture_diffuse = "asari_01_stations_diffuse.dds"
+		#	texture_normal = "asari_01_stations_normal.dds"
+		#	texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		#}
+	}
+	###############
+	# END MODULES #
+	###############
+	
+	# Science Station
+	pdxmesh = {
+		name = "asari_01_science_station_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_newscience_station.mesh"
+		scale = 4.0
+	}
+
+	# Mass Relay Station
+	pdxmesh = {
+		name = "asari_01_mass_relay_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_mass_relay.mesh"
+		scale = 8.0
+		
+		animation = { id = "idle" type = "asari_01_mass_relay_idle_animation" }
+	}
+	
+	# Mass Relay Station Construction
+	# NOTE: Used to avoid some wonkiness with the existing model during construction. A static mesh with no anims!
+	pdxmesh = {
+		name = "asari_01_mass_relay_construction_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_mass_relay_construction.mesh"
+		scale = 8.0
+	}
+	
+	# Mining Station
+	pdxmesh = {
+		name = "asari_01_mining_station_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_mining_station.mesh"
+		scale = 1.0
+	}
+	
+	# Observation Station
+	pdxmesh = {
+		name = "asari_01_observation_station_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_observation_station.mesh"
+		scale = 4.0
+	}	
+	
+	#######################
+	## MILITARY STATIONS ##
+	#######################
+	
+	# Fortress
+	pdxmesh = {
+		name = "asari_01_military_station_large_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_newmilitary_station_large.mesh"
+		scale = 3.0
+	}
+	
+	# Defense Station
+	pdxmesh = {
+		name = "asari_01_military_station_medium_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_newmilitary_station_medium.mesh"
+		scale = 2.75
+	}	
+	
+	# Defense Platform
+	pdxmesh = {
+		name = "asari_01_military_station_small_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_newmilitary_station_small.mesh"
+		scale = 2.5
+	}	
+	
+	# Super Fortress - CURRENTLY: UNUSED
+	pdxmesh = {
+		name = "asari_01_military_station_large2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_newmilitary_station_large2.mesh"
+		scale = 2.0
+	}
+	
+	# Military Modules
+	# NOTE: Not used but kept here for the moment.
+	pdxmesh = {
+		name = "asari_01_military_station_section_heavy_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_military_station_section_heavy.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "asari_01_stations_diffuse.dds"
+			texture_normal = "asari_01_stations_normal.dds"
+			texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "asari_01_military_station_section_medium_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_military_station_section_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "asari_01_stations_diffuse.dds"
+			texture_normal = "asari_01_stations_normal.dds"
+			texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		}
+	}
+	
+	pdxmesh = {
+		name = "asari_01_military_station_section_light_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_military_station_section_light.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "asari_01_stations_diffuse.dds"
+			texture_normal = "asari_01_stations_normal.dds"
+			texture_specular = "asari_01_stations_specular.dds"
+			#shader = "PdxMeshTerra"
+		}
+	}

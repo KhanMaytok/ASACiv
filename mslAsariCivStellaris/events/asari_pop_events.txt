@@ -1,0 +1,62 @@
+namespace = asari_pop
+
+### Hidden On_Monthly_Pulse Event
+### EXPERIMENTAL. This controls the mechanics of the Parthenogenetic trait
+### Some bits are placeholders, pending 1.5 "Banks" population controls
+### REMINDER: "can_pop_procreate" should make it forward-compatible? Needs checking.
+
+event = {
+	id = asari_pop.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		every_pop = {
+			limit = {
+				exists = planet
+				planet = {
+					any_pop = {
+						NOT = { is_same_species = prevprev }
+						pop_has_trait = trait_asari_gynogenetic
+						asari_can_pop_procreate = yes
+						is_growing = yes
+					}
+				}
+				NOT = { has_pop_flag = asari_cross_fertiliser }
+				NOT = { pop_has_ethic = ethic_xenophobe }
+				asari_can_pop_procreate = yes
+				is_growing = no
+			}
+			set_timed_pop_flag = {
+				flag = asari_cross_fertiliser
+				days = 89
+			}
+			planet = {
+				random_pop = {
+					limit = {
+						NOT = { is_same_species = prevprev }
+						pop_has_trait = trait_asari_gynogenetic
+						asari_can_pop_procreate = yes
+						is_growing = yes
+					}
+					if = {
+						limit = {
+							prevprev = { pop_has_ethic = ethic_xenophile }
+						}
+						add_modifier = {
+							modifier = asari_cross_fertilised_xphi
+							days = 89
+						}
+						else = {
+							add_modifier = {
+							modifier = asari_cross_fertilised
+							days = 89
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

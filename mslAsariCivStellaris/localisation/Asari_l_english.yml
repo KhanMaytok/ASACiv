@@ -1,0 +1,56 @@
+﻿l_english:
+ name_list_asari_names:0 "Asari 1"
+ FLAG_CATEGORY_asari_civ:0 "Asari"
+ ####################################
+ # Species
+ ####################################
+ ASA:0 "Asari"
+ ASA_desc:0 "Asari Group."
+ ASA_adj:0 "Asari"
+ ASA_plural:0 "Asari"
+ ASA_insult_01:0 "whore"
+ ASA_insult_plural_01:0 "parasites"
+ ASA_compliment_01:0 "angel"
+ ASA_compliment_plural_01:0 "angels"
+ ASA_spawn:0 "maiden"
+ ASA_spawn_plural:0 "maidens"
+ ASA_sound_01:0 "whining"
+ ASA_sound_02:0 "screeching"
+ ASA_sound_03:0 "yapping"
+ ASA_sound_04:0 "crying"
+ ASA_sound_05:0 "moaning"
+ ASA_organ:0 "stomach"
+ ASA_mouth:0 "mouth"
+ ####################################
+ # Empire
+ ####################################
+ EMPIRE_DESIGN_asarifoundation_civ:0 "Asari Foundation"
+ EMPIRE_DESIGN_asarifoundation_civ_desc:0 "Asari are monogendered humanoids distinguished by their sophisticated nervous system, longetivity and a peculiar form of parthenogenetic reproduction which allows their species to propagate and evolve by assimilating the genetic distinctivness of alien races into their own genome.\n\nAsari Arkships traversed the dark space for many centuries before they reached their destination. Finally released from the stasis pods, the passengers look upon a new frontier with both hope and trepidation.\n\nBefore them stands the monumental task of surviving and building a new Asari civilisation in an alien and inhospitable place, sure to be filled with enemies who see the Asari as invaders.\n\nAnd perhaps that's what they will become if they are to secure the future of their ancient race. While highly cultured and fond of other sentients, when faced with the threat of extinction, the Asari have very clear-cut priorities."
+ START_SCREEN_ASF:0 "Very far from home, we have survived a long intergalactic journey. With that we have successfully overcome only the first of many challenges that await us here.\n\nUpon finding a suitable planet to settle, our Arks' components were repurposed to develop technologies that would jumpstart the establishment of the colony and eventually let us reach for the stars once again. The Council of Matriarchs, whom the colonists have looked to for direction as we tamed our alien refuge, recently appointed [Root.GetRulerTitle] [Root.GetRulerName] as their hand and charged her with one mission: ensure the survival and prosperity of our species by any means necessary.\n\n[Root.GetName]'s future is the future of the Asari. Failure is not and never will be an option."
+
+ EMPIRE_DESIGN_asarirepublics_civ:0 "Asari Republics"
+ EMPIRE_DESIGN_asarirepublics_civ_desc:0 "Asari are monogendered humanoids distinguished by their sophisticated nervous system, longetivity and a peculiar form of parthenogenetic reproduction which allows their species to propagate and evolve by assimilating the genetic distinctivness of alien races into their own genome.\n\nThe Asari culture is predisposed towards peaceful coexistence, centrism in politics and compromise in conflict. The Republics have never achieved a global government and remain a collection of indepentent states to this day, but the Asari managed to live in relative peace and stability throughout most of their history.\n\nThat does not, however, make them blind to the dangers of the universe or helpless in the face of opposition. To the contrary: they know the value of their many achievements and disturbing secrets, and they have no qualms about using force and deception alike to safeguard them."
+ START_SCREEN_ASR:0 "We are the [Root.GetName]. Despite our history of diversity and divisivness, we have always found a way to understand each other, avoid major wars, protect our citizens from crime, disease and famine. One of our most defining achievements was the construction of a sophisticated communications infrastructure which has enabled every [Root.GetSpeciesName] to have a voice in the many e-democracies that make up our society.\n\nTogether we have built wonders, created beautiful art and developed advanced technologies. And we are not finished yet - our culture will define the galaxy for millenia to come. When other sentients look upon something in awe, we want them to think of us.\n\nYet the universe is vast and even we are very little next to infinity. We must remember that there is still much we don't know and not all of it can be trusted or reasoned with."
+ ####################################
+ # System Initializers
+ ####################################
+ asr_system_initializer_NAME:0 "Athena Nebula"
+ asr_system_initializer_DESC:0 "§LThe seat of the Asari Republics. Contains the following systems with preset planets: Parnitha, Ialessa, Orisoni, Tomaros and Vernio.§!\n"
+ ####################################
+ # Traits
+ ####################################
+ trait_asari_age:0 "Ageless"
+ trait_asari_age_desc:0 "§LMembers of this species owe extreme longevity to cellular rejuvenation, but also go through many biological, psychological and social stages of maturity throughout their lives.§!\n"
+ trait_asari_gynogenetic:0 "Gynogenetic"
+ trait_asari_gynogenetic_desc:0 "§LThis species reproduces through a form of parthenogenesis in which they use the genetic map of alien species to diversify the genetic makeup of their offspring.§!\n"
+ ####################################
+ # Civics
+ ####################################
+ civic_asari_biotic_evo:0 "Biotic Evolution"
+ civic_asari_biotic_evo_desc:0 "This society originated on a world rich with Element Zero, which created ideal conditions for the evolutionary development of dark energy manipulation abilities in many native lifeforms."
+ civic_asari_tooltip_biotic_evo_effects:1 "Start the game with the §YPsionic Theory§! technology"
+ ####################################
+ # Modifiers
+ ####################################
+ asari_cross_fertilised:0 "Diversified Gene Pool"
+ asari_cross_fertilised_xphi:0 "Diversified Gene Pool"

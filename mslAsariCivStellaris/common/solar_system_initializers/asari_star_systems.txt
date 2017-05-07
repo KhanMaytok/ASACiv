@@ -1,0 +1,701 @@
+### Athena Nebula systems
+### THIS IS THE HARDEST THING EVER! ,_,
+
+@distance = 50
+@planet_min_size = 10
+@planet_max_size = 25
+@base_moon_distance = 10
+@moon_min_size = 6
+@moon_max_size = 10
+
+asr_system_initializer = {
+	name = "Parnitha"
+	
+	class = "sc_f"
+	asteroids_distance = 85
+	
+	usage = custom_empire
+	
+	planet = {
+		name = "Parnitha"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Kurinth"
+		class = "pc_molten"
+		orbit_distance = 22
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Thessia"
+		class = "pc_continental"
+		orbit_distance = 26
+		orbit_angle = 80
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 2
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 2
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_basic_science_lab_1"
+				random_list = {
+					33 = { 
+						add_resource = {
+							resource = engineering_research
+							amount = 1
+							replace = yes
+						}						
+					}
+					33 = { 
+						add_resource = {
+							resource = physics_research
+							amount = 1
+							replace = yes
+						}						
+					}
+					33 = { 
+						add_resource = {
+							resource = society_research
+							amount = 1
+							replace = yes
+						}						
+					}					
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_mining_network_1"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}						
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_power_plant_1"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}				
+			}
+		}
+	}
+	
+	planet = {
+		name = "Piares"
+		class = "pc_barren"
+		orbit_distance = 15
+		orbit_angle = 70
+		size = 14
+		has_ring = no
+		entity = "barren_planet_02_entity"
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		count = 4
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 40 max = 100 }
+	}
+	
+	planet = {
+		name = "Janiri"
+		class = "pc_gas_giant"
+		orbit_distance = 22
+		orbit_angle = -60
+		size = 30
+		has_ring = no
+		entity = "gas_giant_05_entity"
+	}
+	
+	planet = {
+		name = "Athame"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = -100
+		size = 35
+		has_ring = yes
+		entity = "gas_giant_01_entity"
+	}
+	
+	planet = {
+		name = "Tevura"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = -170
+		size = 25
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		
+		moon = {
+			name = "Tevura I"
+			count = 1
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 13
+		}
+		
+		moon = {
+			name = "Tevura II"
+			count = 1
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 0
+		}
+		
+		moon = {
+			name = "Tevura III"
+			count = 1
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 0
+		}
+	}
+	
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "asr_neighbour_01"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "asr_neighbour_02"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "asr_neighbour_03"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "asr_neighbour_04"
+	}
+}
+
+# Ialessa
+asr_neighbour_01 = {
+	name = "Ialessa"
+	class = sc_g
+	asteroids_distance = 55
+
+	planet = {
+		count = 1
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 12
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Ilmnos"
+		class = "pc_molten"
+		orbit_distance = 18
+		orbit_angle = 65
+		size = 9
+		has_ring = no
+	}
+
+	planet = {
+		name = "Sanves"
+		class = "pc_tropical"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 18
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+   				modifier = natural_beauty 
+  				days = -1
+			}
+		}
+	}
+	
+	change_orbit = 18
+	
+	planet = {
+		count = 3
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+	}
+	
+	planet = {
+		name = "Zylium"
+		class = "pc_gas_giant"
+		orbit_distance = 22
+		orbit_angle = 35
+		size = 25
+		has_ring = no
+		entity = "gas_giant_05_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_immense_energy_deposit
+			}
+		}
+	}
+	
+	planet = {
+		name = "Trikalon"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 150
+		size = 6
+		has_ring = no
+		entity = "barren_planet_04_entity"
+	}
+	
+	planet = {
+		name = "Nossia"
+		class = "pc_barren"
+		orbit_distance = 22
+		orbit_angle = 20
+		size = 25
+		has_ring = no
+		entity = "barren_planet_02_entity"
+	}
+}
+
+# Orisoni
+asr_neighbour_02 = {	
+	name = "Orisoni"
+	class = sc_g
+
+	planet = {
+		name = "Orisoni"
+		count = 1
+		class = pc_g_star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Thissioni"
+		class = "pc_barren"
+		orbit_distance = 23
+		orbit_angle = 60
+		size = 16
+		has_ring = no
+		entity = "barren_planet_04_entity"
+	}
+	
+	planet = {
+		name = "Niacal"
+		class = "pc_tropical"
+		orbit_distance = 23
+		orbit_angle = 90
+		size = 22
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+   				modifier = lush_planet 
+  				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Thissioni"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 130
+		size = 14
+		has_ring = no
+		entity = "barren_planet_01_entity"
+	}
+	
+	planet = {
+		name = "Egalic"
+		class = "pc_gas_giant"
+		orbit_distance = 27
+		orbit_angle = -90
+		size = 32
+		has_ring = yes
+		entity = "gas_giant_02_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_zro_deposit
+			}
+		}
+	}
+}
+
+
+# Tomaros
+asr_neighbour_03 = {
+	name = "Tomaros"
+	class = sc_g
+
+	planet = {
+		name = "Tomaros"
+		count = 1
+		class = pc_g_star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Lusia"
+		class = ideal_planet_class
+		orbit_distance = 30
+		orbit_angle = 110
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Niagolon"
+		class = "pc_gas_giant"
+		orbit_distance = 28
+		orbit_angle = -160
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_01_entity"
+	}
+	
+	planet = {
+		name = "Pronoia"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 100
+		size = 24
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		
+		moon = {
+			name = "Pronoia I"
+			count = 1
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 14
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+					add_deposit = d_vast_mineral_deposit
+				}
+			}
+		}
+	}
+	
+	planet = {
+		name = "Beness"
+		class = "pc_gas_giant"
+		orbit_distance = 33
+		orbit_angle = 100
+		size = 18
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+}
+
+# Vernio
+asr_neighbour_04 = {
+	name = "Vernio"
+	class = sc_f
+	asteroids_distance = 90
+
+	planet = {
+		name = "Vernio"
+		count = 1
+		class = pc_f_star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Nauti"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = -90
+		size = 18
+		has_ring = no
+		entity = "barren_planet_02_entity"
+	}
+	
+	planet = {
+		name = "Promavess"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 70
+		size = 14
+		has_ring = no
+		entity = "barren_planet_04_entity"
+	}
+	
+	planet = {
+		name = "Sotera"
+		class = "pc_barren"
+		orbit_distance = 0
+		orbit_angle = 50
+		size = 14
+		has_ring = no
+		entity = "barren_planet_01_entity"
+	}
+	
+	change_orbit = 30
+	
+	planet = {
+		name = "Tritogenith"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 130
+		size = 18
+		has_ring = no
+		entity = "gas_giant_04_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_rich_engineering_deposit
+			}
+		}
+		
+		moon = {
+			name = "Tritogenith I"
+			count = 1
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 10
+		}
+		
+		moon = {
+			name = "Tritogenith II"
+			count = 1
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 0
+		}
+	}
+	
+	planet = {
+		name = "Polissa"
+		class = "pc_gas_giant"
+		orbit_distance = 45
+		orbit_angle = -135
+		size = 25
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		
+		moon = {
+			name = "Polissa I"
+			class = random_non_colonizable
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 10
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+				}
+			}
+		}
+		
+		moon = {
+			name = "Polissa VI"
+			class = random_non_colonizable
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 0
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+				}
+			}
+		}
+		
+		moon = {
+			name = "Polissa XI"
+			class = random_non_colonizable
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 3
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+				}
+			}
+		}
+		
+		moon = {
+			name = "Polissa XV"
+			class = random_non_colonizable
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 0
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+					add_deposit = d_rich_mineral_deposit
+				}
+			}
+		}
+		
+		moon = {
+			name = "Polissa XX"
+			class = random_non_colonizable
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 3
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+					add_deposit = d_rich_mineral_deposit
+				}
+			}
+		}
+		
+		moon = {
+			name = "Polissa XXVI"
+			class = random_non_colonizable
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 0
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+					add_deposit = d_vast_mineral_deposit
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+# This file handles all startup triggers for the Asari.
+# Events are definied in their own folder
+
+empire_init_add_technologies = {
+	events = {
+		asari_setup.1
+	}
+}
+
+on_game_start = {
+	events = {
+		asari_setup.2
+	}
+}
+
+on_monthly_pulse = {
+	events = {
+		asari_pop.1
+	}
+}
+
+#on_ruler_set = {
+#	events = {
+#		asari_leader.1
+#	}
+#}
+
+#on_pop_birth = {
+#	events = {
+#		asari_pop.1
+#	}
+#}
+
+#on_pop_fully_grown = {
+#	events = {
+#		asari_pop.2
+#	}
+#}
