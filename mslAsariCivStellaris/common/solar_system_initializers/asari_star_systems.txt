@@ -30,7 +30,7 @@ asr_system_initializer = {
 		class = "pc_molten"
 		orbit_distance = 22
 		orbit_angle = 15
-		size = 10
+		size = 9
 		has_ring = no
 	}
 	
@@ -695,6 +695,589 @@ asr_neighbour_04 = {
 					clear_deposits = yes
 					add_deposit = d_vast_mineral_deposit
 				}
+			}
+		}
+	}
+}
+
+### Crescent Nebula systems
+### THIS IS STILL THE HARDEST THING EVER!
+
+asi_system_initializer = {
+	name = "Tasale"
+	
+	class = "sc_g"
+	asteroids_distance = 90
+	
+	usage = custom_empire
+	
+	planet = {
+		name = "Tasale"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Beregale"
+		class = "pc_molten"
+		orbit_distance = 22
+		orbit_angle = 15
+		size = 19
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_rich_mineral_deposit
+			}
+		}
+	}
+	
+	planet = {
+		name = "Illium"
+		class = "pc_continental"
+		orbit_distance = 18
+		orbit_angle = 160
+		size = 18
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 2
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 2
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_basic_science_lab_1"
+				random_list = {
+					33 = { 
+						add_resource = {
+							resource = engineering_research
+							amount = 1
+							replace = yes
+						}						
+					}
+					33 = { 
+						add_resource = {
+							resource = physics_research
+							amount = 1
+							replace = yes
+						}						
+					}
+					33 = { 
+						add_resource = {
+							resource = society_research
+							amount = 1
+							replace = yes
+						}						
+					}					
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_mining_network_1"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}						
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_power_plant_1"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}				
+			}
+		}
+	}
+	
+	planet = {
+		name = "Ponolus"
+		class = "pc_molten"
+		orbit_distance = 25
+		orbit_angle = 180
+		size = 10
+		has_ring = no
+	}
+	
+	change_orbit = 24
+	
+	planet = {
+		count = 4
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 40 max = 100 }
+	}
+	
+	planet = {
+		name = "Teukria"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 40 max = 100 }
+		size = 14
+		entity = "cold_barren_planet_01_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_rich_mineral_deposit
+			}
+		}
+	}
+	
+	planet = {
+		name = "Thail"
+		class = "pc_gas_giant"
+		orbit_distance = 38
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_01_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_energy_deposit
+			}
+		}
+	}
+	
+	planet = {
+		name = "Naxell"
+		class = "pc_gas_giant"
+		orbit_distance = 27
+		orbit_angle = -75
+		size = 18
+		has_ring = no
+		entity = "gas_giant_05_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_rich_energy_deposit
+			}
+		}
+	}
+	
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "asi_neighbour_01"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "asi_neighbour_02"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "asi_neighbour_03"
+	}
+}
+
+# Lusarn
+asi_neighbour_01 = {
+	name = "Lusarn"
+	class = sc_a
+	asteroids_distance = 83
+
+	planet = {
+		count = 1
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Jontan"
+		class = "pc_gas_giant"
+		orbit_distance = 33
+		orbit_angle = 20
+		size = 28
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Euntanta"
+		class = "pc_molten"
+		orbit_distance = 25
+		orbit_angle = -160
+		size = 17
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_rich_mineral_deposit
+			}
+		}
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		count = 2
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+	}
+	
+	planet = {
+		name = "Beyalt"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_rich_mineral_deposit
+			}
+		}
+	}
+	
+	planet = {
+		name = "Doriae"
+		class = "pc_toxic"
+		orbit_distance = 25
+		orbit_angle = 35
+		size = 19
+		has_ring = no
+	}
+
+	planet = {
+		name = "Tarith"
+		class = "pc_tropical"
+		orbit_distance = 25
+		orbit_angle = -30
+		size = 16
+		has_ring = no
+		entity = "gaia_planet_01_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+   				modifier = dangerous_wildlife 
+  				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Xetic"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 25
+		size = 20
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+			}
+		}
+		
+		moon = {
+			name = "Gesis"
+			class = "pc_frozen"
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 12
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+					add_deposit = d_rich_society_deposit
+				}
+			}
+		}
+	}
+}
+
+# Zelene
+asi_neighbour_02 = {	
+	name = "Zelene"
+	class = sc_k
+
+	planet = {
+		name = "Zelene"
+		count = 1
+		class = pc_k_star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Nepyma"
+		class = "pc_barren"
+		orbit_distance = 15
+		orbit_angle = 15
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Helyme"
+		class = "pc_continental"
+		orbit_distance = 20
+		orbit_angle = 45
+		size = 16
+		has_ring = no
+		entity = "alpine_planet_02_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			add_modifier = {
+   				modifier = hazardous_weather 
+  				days = -1
+			}
+			add_modifier = {
+   				modifier = wild_storms 
+  				days = -1
+			}
+		}
+	}
+	
+	planet = {
+		name = "Epho"
+		class = "pc_tundra"
+		orbit_distance = 30
+		orbit_angle = 150
+		size = 19
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Gaelon"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = -60
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_terraforming_gas_deposit
+			}
+		}
+		
+		moon = {
+			name = "Gaelon I"
+			class = "pc_barren"
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 15
+			entity = "barren_planet_01_destroyed_entity"
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+					add_deposit = d_vast_engineering_deposit
+				}
+			}
+		}
+	}
+}
+
+# Ondeste
+asi_neighbour_03 = {
+	name = "Ondeste"
+	class = sc_m
+
+	planet = {
+		name = "Ondeste"
+		count = 1
+		class = pc_m_star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Zesmeni"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 150
+		size = 15
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_immense_mineral_deposit
+			}
+		}
+	}
+	
+	planet = {
+		name = "Acaeria"
+		class = "pc_frozen"
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 16
+		has_ring = no
+		entity = "cold_barren_planet_02_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
+				add_deposit = d_rich_mineral_deposit
+			}
+		}
+		
+		moon = {
+			name = "Acaeria I"
+			class = "pc_barren"
+			orbit_angle = { min = 45 max = 270 }
+			orbit_distance = 10
+			entity = "cold_barren_planet_01_entity"
+			
+			init_effect = {
+				prevent_anomaly = yes
+				orbital_deposit_tile = {
+					clear_deposits = yes
+					add_deposit = d_mineral_deposit
+				}
+			}
+		}
+	}
+	
+	planet = {
+		name = "Maisuth"
+		class = "pc_frozen"
+		orbit_distance = 30
+		orbit_angle = 120
+		size = 13
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			orbital_deposit_tile = {
+				clear_deposits = yes
 			}
 		}
 	}

@@ -31,11 +31,18 @@
  EMPIRE_DESIGN_asarirepublics_civ:0 "Asari Republics"
  EMPIRE_DESIGN_asarirepublics_civ_desc:0 "Asari are monogendered humanoids distinguished by their sophisticated nervous system, longetivity and a peculiar form of parthenogenetic reproduction which allows their species to propagate and evolve by assimilating the genetic distinctivness of alien races into their own genome.\n\nThe Asari culture is predisposed towards peaceful coexistence, centrism in politics and compromise in conflict. The Republics have never achieved a global government and remain a collection of indepentent states to this day, but the Asari managed to live in relative peace and stability throughout most of their history.\n\nThat does not, however, make them blind to the dangers of the universe or helpless in the face of opposition. To the contrary: they know the value of their many achievements and disturbing secrets, and they have no qualms about using force and deception alike to safeguard them."
  START_SCREEN_ASR:0 "We are the [Root.GetName]. Despite our history of diversity and divisivness, we have always found a way to understand each other, avoid major wars, protect our citizens from crime, disease and famine. One of our most defining achievements was the construction of a sophisticated communications infrastructure which has enabled every [Root.GetSpeciesName] to have a voice in the many e-democracies that make up our society.\n\nTogether we have built wonders, created beautiful art and developed advanced technologies. And we are not finished yet - our culture will define the galaxy for millenia to come. When other sentients look upon something in awe, we want them to think of us.\n\nYet the universe is vast and even we are very little next to infinity. We must remember that there is still much we don't know and not all of it can be trusted or reasoned with."
+ 
+ EMPIRE_DESIGN_asariillium_civ:0 "Asari Corporate Interests"
+ EMPIRE_DESIGN_asariillium_civ_desc:0 "Asari are monogendered humanoids distinguished by their sophisticated nervous system, longetivity and a peculiar form of parthenogenetic reproduction which allows their species to propagate and evolve by assimilating the genetic distinctivness of alien races into their own genome.\n\nAsari Corporate Interests operate out of Illium, a young (by asari standards) colony, owned and governed by the private sector rather than the Asari Republics proper. The corporations on Illium enjoy almost unlimited legal latitude, infamously resulting in abusive labor practices and legalization of nearly everything except murder.\n\nBut that does not equate to lawlessness and chaos; quite the opposite. As the paranoid CEOs and wealthy celebrities place order and security above all else, omnipresent surveilance and extensive bureaucracy ensure that nobody ruins the decadent paradise for everybody else."
+ START_SCREEN_ASI:0 "Settled only a few centuries ago, the colony of [Root.Capital.GetName] has flourished beyond the most ambitious projections under the control of [Root.GetName].\n\nSince its founding, [Root.Capital.GetName] has been synonymous with cutting-edge technology, glamourous luxury and unconventional ideas that would never have taken root in more conservative parts of the galaxy; all the while managing to remain safe and profitable for those who invested countless credits into its success.\n\nBut if we are to avoid stagnancy and stay relevant on the galactic stage, we must expand the scope of our ambitions. There is a whole galaxy of opportunities waiting for us, but they won't be waiting forever if we leave the competition unchecked. We must seize the initiative - that is the only way forward."
  ####################################
  # System Initializers
  ####################################
  asr_system_initializer_NAME:0 "Athena Nebula"
  asr_system_initializer_DESC:0 "§LThe seat of the Asari Republics. Contains the following systems with preset planets: Parnitha, Ialessa, Orisoni, Tomaros and Vernio.§!\n"
+ 
+ asi_system_initializer_NAME:0 "Crescent Nebula"
+ asi_system_initializer_DESC:0 "§LEntrepot between the Asari Republics and the Terminus Systems, home to the corporate colony of Illium. Contains the following systems with preset planets: Tasale, Lusarn, Zelene and Ondeste.§!\n"
  ####################################
  # Traits
  ####################################
@@ -43,6 +50,7 @@
  trait_asari_age_desc:0 "§LMembers of this species owe extreme longevity to cellular rejuvenation, but also go through many biological, psychological and social stages of maturity throughout their lives.§!\n"
  trait_asari_gynogenetic:0 "Gynogenetic"
  trait_asari_gynogenetic_desc:0 "§LThis species reproduces through a form of parthenogenesis in which they use the genetic map of alien species to diversify the genetic makeup of their offspring.§!\n"
+ TRAIT_ASARI_GYNOGENETIC_EFFECT:0 "Base Growth Speed: §R-30%§!\nGrowth Speed From Alien Pops: §G+2%§!"
  ####################################
  # Civics
  ####################################

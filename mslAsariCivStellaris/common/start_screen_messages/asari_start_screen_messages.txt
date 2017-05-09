@@ -35,3 +35,13 @@ part = {
 		has_country_flag = asari_asr
 	}
 }
+
+# Asari Corporate Interests
+part = {
+	location = 0
+	localization = "START_SCREEN_ASI"
+	
+	trigger = {
+		has_country_flag = asari_asi
+	}
+}

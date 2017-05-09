@@ -1,6 +1,6 @@
-## Asari Foundation
-asarifoundation_civ = {
-	name = "Asari Foundation"
+## Asari Corporate Interests
+asariillium_civ = {
+	name = "Asari Corporate Interests"
 	spawn_enabled = no # yes / no / always
 	
 	name_list = "asari_names"
@@ -19,22 +19,22 @@ asarifoundation_civ = {
 	adjective = "Asari"
 	
 	authority = "auth_oligarchic"
-	civics = { "civic_asari_biotic_evo" "civic_shadow_council" }
-	government = gov_executive_committee
-	room = "ethic_materialist_room"
+	civics = { "civic_asari_biotic_evo" "civic_corporate_dominion" }
+	government = gov_megacorporation
+	room = "personality_peaceful_traders_room"
 	
-	ethic = "ethic_fanatic_xenophile"
-	ethic = "ethic_materialist"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_materialist"
 	
-	flags = { asari_asf custom_start_screen }
+	flags = { asari_asi custom_start_screen }
 
 	weapon = "tech_mass_drivers_1"
-	ftl = warp
+	ftl = wormhole
 	
-	planet_name = "Leusinia"
+	planet_name = "Illium"
 	planet_class = "pc_continental"
-	system_name = "Eryia"
-	initializer = ""
+	system_name = "Tasale"
+	initializer = "asi_system_initializer"
 	graphical_culture = "asari_01"
 	city_graphical_culture = "asari_01"
 	empire_flag = {
@@ -44,7 +44,7 @@ asarifoundation_civ = {
 		}
 		background = {
 			category = "backgrounds"
-			file = "sinus.dds"
+			file = "stripes.dds"
 		}
 		colors = {
 			"dark_purple"
@@ -55,13 +55,13 @@ asarifoundation_civ = {
 	}
 	ruler={
 		gender = female
-		name = "Ishta Linnadhiel"
-		portrait = "asari_6"
-		texture = 5
+		name = "Selesta T'zeala" #"Ishta Linnadhiel"
+		portrait = "asari_2"
+		texture = 6
 		hair = 0
-		clothes = 89
-		ruler_title = "Executor"
-		ruler_title_female = "Executor"
+		clothes = 75 #89
+		ruler_title = "Chief Executive Officer"
+		ruler_title_female = "Chief Executive Officer"
 	}
 }
 
@@ -88,7 +88,7 @@ asarirepublics_civ = {
 	authority = "auth_democratic"
 	civics = { "civic_asari_biotic_evo" "civic_parliamentary_system" }
 	government = gov_direct_democracy
-	room = "ethic_xenophile_room"
+	room = "personality_federation_builders_room"
 	
 	ethic = "ethic_fanatic_xenophile"
 	ethic = "ethic_egalitarian"

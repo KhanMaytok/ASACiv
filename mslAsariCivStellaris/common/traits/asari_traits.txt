@@ -21,7 +21,8 @@ trait_asari_gynogenetic = {
 	randomized = no
 	icon = "gfx/interface/icons/asari/trait_asari_gynogenetic.dds"
 	modifier = {
-		pop_growth_req_mult = 0.30
+		pop_growth_speed = -0.30
 	}
+	custom_tooltip = TRAIT_ASARI_GYNOGENETIC_EFFECT
 	opposites = { "trait_slow_breeders" "trait_rapid_breeders" }
 }
