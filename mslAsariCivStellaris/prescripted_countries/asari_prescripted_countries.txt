@@ -88,7 +88,7 @@ asarirepublics_civ = {
 	authority = "auth_democratic"
 	civics = { "civic_asari_biotic_evo" "civic_parliamentary_system" }
 	government = gov_direct_democracy
-	room = "personality_federation_builders_room"
+	room = "personality_metalheads_room"
 	
 	ethic = "ethic_fanatic_xenophile"
 	ethic = "ethic_egalitarian"
