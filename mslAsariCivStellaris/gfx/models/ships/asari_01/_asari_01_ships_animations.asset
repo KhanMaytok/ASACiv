@@ -6,6 +6,20 @@ animation = {
 	file = "asari_01_mass_relay_idle.anim"
 }
 
+##########################
+## ASARI SENSOR STATION ##
+##########################
+animation = {
+	name = "asari_01_sensor_station_frame_construction_animation"
+	file = "asari_01_sensor_station_frame_construction.anim"
+}
+
+animation = {
+	name = "asari_01_sensor_station_frame_idle_animation"
+	file = "asari_01_sensor_station_frame_idle.anim"
+}
+
+
 #################
 # ASARI HABITAT #
 #################

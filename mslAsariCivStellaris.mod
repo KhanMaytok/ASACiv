@@ -9,4 +9,4 @@ tags={
 }
 picture="mslASAtitle01.png"
 remote_file_id="790903721"
-supported_version="1.7.*"
+supported_version="1.6.*"

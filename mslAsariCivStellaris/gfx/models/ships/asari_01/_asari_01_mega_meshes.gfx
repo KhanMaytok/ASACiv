@@ -1,5 +1,71 @@
 objectTypes = {
 	
+	##########################
+	## ASARI SENSOR STATION ##
+	##########################
+	
+	## CENTRAL FRAME (Includes Anims!!) ##
+	pdxmesh = {
+		name = "asari_01_sensor_station_frame_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_frame.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle" type = "asari_01_sensor_station_frame_idle_animation" }
+		animation = { id = "construction" type = "asari_01_sensor_station_frame_construction_animation" }
+	}
+	
+	## PHASE1 ##
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase1.mesh"
+		scale = 1.0		
+	}
+	
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase1_spinning_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase1_spinning.mesh"
+		scale = 1.0		
+	}
+	
+	## PHASE 2 ##
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase2.mesh"
+		scale = 1.0		
+	}
+	
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase2_spinning_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase2_spinning.mesh"
+		scale = 1.0		
+	}
+	
+	## PHASE 3 ##
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase3_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase3.mesh"
+		scale = 1.0		
+	}
+	
+	## PHASE 4 ##
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase4_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase4.mesh"
+		scale = 1.0		
+	}
+	
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase4_ring1_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase4_ring1.mesh"
+		scale = 1.0		
+	}
+	
+	pdxmesh = {
+		name = "asari_01_sensor_station_phase4_ring2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_sensor_station_phase4_ring2.mesh"
+		scale = 1.0		
+	}
+	
 	###################
 	## ASARI HABITAT ##
 	###################
