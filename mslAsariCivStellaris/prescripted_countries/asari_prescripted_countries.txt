@@ -55,11 +55,11 @@ asariillium_civ = {
 	}
 	ruler={
 		gender = female
-		name = "Selesta T'zeala" #"Ishta Linnadhiel"
+		name = "Selesta T'Zeala" #"Ishta Linnadhiel"
 		portrait = "asari_2"
-		texture = 6
+		texture = 5
 		hair = 0
-		clothes = 75 #89
+		clothes = 11
 		ruler_title = "Chief Executive Officer"
 		ruler_title_female = "Chief Executive Officer"
 	}
@@ -122,11 +122,11 @@ asarirepublics_civ = {
 	}
 	ruler={
 		gender = female
-		name = "Tevos"
+		name = "Sairae B'Sala" #"Tevos"
 		portrait = "asari_3"
 		texture = 1
 		hair = 0
-		clothes = 70
+		clothes = 7
 		ruler_title = "Councilor"
 		ruler_title_female = "Councilor"
 	}

@@ -1,0 +1,40 @@
+###########################
+# Asari On-Action Events #
+###########################
+
+#THIS EXPERIMENTAL SOLUTION IS HIGHLY UNSTBLE AND CURRENTLY DISABLED!
+
+namespace = asari_on_action
+
+# Ensure that all generated leaders are female
+country_event = {
+	id = asari_leader.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_country_flag = asari_leader_check
+		from = {
+			species = { has_trait = trait_asari_gynogenetic }
+			gender = male
+		}
+	}
+
+	immediate = {
+		from = {
+			kill_leader = { show_notification = no }
+			#break = yes
+		}
+	}
+}
+
+# Delay leader gender checks until after the initial spawn (to avoid losing starting leaders)
+country_event = {
+	id = asari_leader.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		set_country_flag = asari_leader_check
+	}
+}

@@ -1,20 +1,20 @@
 # This is a template which multiple species can use.
 
 asari_outfit = {
-	default = "gfx/models/portraits/asari/asari_outfit_scientist_2.dds"
+	default = "gfx/models/portraits/asari/asari_outfit_pop_materialist_4.dds"
 	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
-		default = "gfx/models/portraits/asari/asari_outfit_scientist_2.dds"			
+		default = "gfx/models/portraits/asari/asari_outfit_pop_materialist_4.dds"			
 	}
 	
 	#species scope
 	species = { #generic portrait for a species
-		default = "gfx/models/portraits/asari/asari_outfit_scientist_2.dds"
+		default = "gfx/models/portraits/asari/asari_outfit_pop_materialist_4.dds"
 	}
 	
 	#pop scope
 	pop = { #for a specific pop
-		default = "gfx/models/portraits/asari/asari_outfit_scientist_2.dds"
+		default = "gfx/models/portraits/asari/asari_outfit_pop_materialist_4.dds"
 		
 		#####################################################################
 		# CLOTHES LIST: Used to line up clothes in the ruler design window! #
@@ -23,100 +23,102 @@ asari_outfit = {
 		random = {
 			trigger = { always = no }
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_generic_1.dds"		#sheath + collar
-				"gfx/models/portraits/asari/asari_outfit_generic_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_2.dds"		#collarless
-				"gfx/models/portraits/asari/asari_outfit_generic_3.dds"		#high neck
-				"gfx/models/portraits/asari/asari_outfit_generic_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_4.dds"		#slick suit
-				"gfx/models/portraits/asari/asari_outfit_generic_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_4b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_1.dds"		#corset + scarf
-				"gfx/models/portraits/asari/asari_outfit_setA_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_2.dds"		#strapless + scarf
-				"gfx/models/portraits/asari/asari_outfit_setA_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_1.dds"		#halter
-				"gfx/models/portraits/asari/asari_outfit_setB_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_2.dds"		#slip + strap
-				"gfx/models/portraits/asari/asari_outfit_setB_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_3.dds"		#strapless + choker
-				"gfx/models/portraits/asari/asari_outfit_setB_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_4.dds"		#absolute cleavage
-				"gfx/models/portraits/asari/asari_outfit_setB_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_4b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_1.dds"		#hex jacket
-				"gfx/models/portraits/asari/asari_outfit_setC_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_2.dds"		#leather jacket
-				"gfx/models/portraits/asari/asari_outfit_setC_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_3.dds"		#heavy robe
-				"gfx/models/portraits/asari/asari_outfit_setC_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_4.dds"		#bulky suit
-				"gfx/models/portraits/asari/asari_outfit_setD_1.dds"		#slip + lace
-				"gfx/models/portraits/asari/asari_outfit_setD_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2.dds"		#cross
-				"gfx/models/portraits/asari/asari_outfit_setD_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3.dds"		#sweetheart
-				"gfx/models/portraits/asari/asari_outfit_setD_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_4.dds"		#strapless patterned
-				"gfx/models/portraits/asari/asari_outfit_setD_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_slaveA_1.dds"		#steel
-				"gfx/models/portraits/asari/asari_outfit_slaveA_2.dds"		#leather
-				"gfx/models/portraits/asari/asari_outfit_slaveB_1.dds"		#slave uniform
-				"gfx/models/portraits/asari/asari_outfit_slaveC_1.dds"		#wardrobe malfunction
-				"gfx/models/portraits/asari/asari_outfit_slaveC_2.dds"		#basic rags
-				"gfx/models/portraits/asari/asari_outfit_slaveD_1.dds"		#Kobayashi-san Chi no Meidosari
-				"gfx/models/portraits/asari/asari_outfit_slaveD_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_slaveD_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_1.dds"		#navy uniform
-				"gfx/models/portraits/asari/asari_outfit_admiral_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2.dds"		#strappy uniform
-				"gfx/models/portraits/asari/asari_outfit_admiral_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_1.dds"	#Stellaris scientist
-				"gfx/models/portraits/asari/asari_outfit_scientist_2.dds"	#wrappy+ID
-				"gfx/models/portraits/asari/asari_outfit_scientist_3.dds"	#hexy suit
-				"gfx/models/portraits/asari/asari_outfit_scientist_4.dds"	#Mass Effect scienist
-				"gfx/models/portraits/asari/asari_outfit_scientist_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_1.dds"		#heavy armour
-				"gfx/models/portraits/asari/asari_outfit_general_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_2.dds"		#techy armour
-				"gfx/models/portraits/asari/asari_outfit_general_3.dds"		#light armour
-				"gfx/models/portraits/asari/asari_outfit_general_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_4.dds"		#slick armour
-				"gfx/models/portraits/asari/asari_outfit_governor_1.dds"	#cheongsam
-				"gfx/models/portraits/asari/asari_outfit_governor_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2.dds"	#formal dress
-				"gfx/models/portraits/asari/asari_outfit_governor_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3.dds"	#femshep LBD
-				"gfx/models/portraits/asari/asari_outfit_governor_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_1.dds"		#glittergown
-				"gfx/models/portraits/asari/asari_outfit_ruler_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_2.dds"		#Arwen gown
-				"gfx/models/portraits/asari/asari_outfit_ruler_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_3.dds"		#Stellaris ruler
-				"gfx/models/portraits/asari/asari_outfit_ruler_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4.dds"		#sleeveless fancy
-				"gfx/models/portraits/asari/asari_outfit_ruler_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5.dds"		#Benezia's outfit
-				"gfx/models/portraits/asari/asari_outfit_ruler_5a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_5.dds"		#thermal jacket
-				"gfx/models/portraits/asari/asari_outfit_setC_6.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_6a.dds"		#robe+scarf
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_1.dds"	#Shadowbroker
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_2.dds"	#ME scientist
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1.dds"		#cheongsam
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2.dds"		#asari formal gown
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3.dds"		#femshep LBD
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1.dds"		#Benezia's outfit
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_2.dds"		#glittergown
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1.dds"		#Ashley's uniform
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_2.dds"		#justicar uniform
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_1.dds"		#ME heavy armour
+				"gfx/models/portraits/asari/asari_outfit_leader_general_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_2.dds"		#Liara's combat armour
+				"gfx/models/portraits/asari/asari_outfit_leader_general_3.dds"		#Tela's combat armour
+				"gfx/models/portraits/asari/asari_outfit_leader_general_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_1.dds"			#asari dress
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_2.dds"			#sleek suit
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_1.dds"	#sheath + collar
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_2.dds"	#Stellaris ruler
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_1.dds"		#corset + scarf
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_2.dds"		#deep plunge
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_3.dds"		#slip + strap
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_1.dds"		#hexy suit
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_2.dds"		#collarless
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_3.dds"		#baggy jacket
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_4.dds"		#wrappy ID
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_4a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_1.dds"		#going commando
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_2.dds"		#Liara's strappy suit
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_3.dds"		#sleeveless armour
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_3b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_1.dds"		#summer dress
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_2.dds"		#strapless + scarf
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_3.dds"		#strapless + choker
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_1.dds"	#Arwen gown
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_2.dds"	#sweetheart
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1.dds"		#slip + lace
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2.dds"		#cross
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3.dds"		#totes not a nightie
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophobe_1.dds"		#high collar robe
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophobe_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_hive_1.dds"			#sleek armour
+				"gfx/models/portraits/asari/asari_outfit_pop_hive_2.dds"			#techy armour
+				"gfx/models/portraits/asari/asari_outfit_pop_hive_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_battle_1.dds"		#slave uniform
+				"gfx/models/portraits/asari/asari_outfit_slave_cattle_1.dds"		#wardrobe malfunction
+				"gfx/models/portraits/asari/asari_outfit_slave_cattle_2.dds"		#basic rags
+				"gfx/models/portraits/asari/asari_outfit_slave_chattel_1.dds"		#steel
+				"gfx/models/portraits/asari/asari_outfit_slave_chattel_2.dds"		#leather
+				"gfx/models/portraits/asari/asari_outfit_slave_domestic_1.dds"		#Kobayashi-san Chi no Meidosari
+				"gfx/models/portraits/asari/asari_outfit_slave_domestic_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_domestic_1b.dds"
 			}
 		}
 		
@@ -124,138 +126,171 @@ asari_outfit = {
 		# END CLOTHES LIST #
 		####################
 			
-		#Random clothes for normal pops
+		#Authoritarian
 		random = {
 			trigger = {
-				nor = {
-					planet = { is_planet_class = pc_arid }
-					planet = { is_planet_class = pc_desert }
-					planet = { is_planet_class = pc_savannah }
-					planet = { is_planet_class = pc_arctic }
-					planet = { is_planet_class = pc_tundra }
-					planet = { is_planet_class = pc_alpine }
-					planet = { has_planet_modifier = pm_atmospheric_aphrodisiac }
-					planet = { has_planet_modifier = pm_atmospheric_hallucinogen }
-					planet = { is_planet_class = pc_gaia }
-					is_enslaved = yes
+				AND = {
+					has_ethic = ethic_authoritarian
+					is_enslaved = no
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_generic_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_1a.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_generic_2.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_generic_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_3b.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_generic_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_4b.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setA_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_1b.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setA_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setA_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_authoritarian_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_2b.dds"
 			}
 		}
 
-		#Clothes for warm climates
+		#Egalitarian
 		random = {
 			trigger = {
-				or = {
-					planet = { is_planet_class = pc_arid }
-					planet = { is_planet_class = pc_desert }
-					planet = { is_planet_class = pc_savannah }
-				}
-				nor = {
-					planet = { has_planet_modifier = pm_atmospheric_aphrodisiac }
-					planet = { has_planet_modifier = pm_atmospheric_hallucinogen }
-					planet = { is_planet_class = pc_gaia }
-					is_enslaved = yes
+				AND = {
+					has_ethic = ethic_egalitarian
+					is_enslaved = no
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_setB_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_1a.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setB_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_2a.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setB_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_3a.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setB_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setB_4b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_egalitarian_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_2a.dds"
 			}
 		}
 		
-		#Clothes for cold climates
+		#Materialist
 		random = {
 			trigger = {
-				or = {
-					planet = { is_planet_class = pc_arctic }
-					planet = { is_planet_class = pc_tundra }
-					planet = { is_planet_class = pc_alpine }
-				}
-				nor = {
-					planet = { has_planet_modifier = pm_atmospheric_aphrodisiac }
-					planet = { has_planet_modifier = pm_atmospheric_hallucinogen }
-					planet = { is_planet_class = pc_gaia }
-					is_enslaved = yes
+				AND = {
+					has_ethic = ethic_materialist
+					is_enslaved = no
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_setC_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_1a.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setC_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_2a.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setC_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_3a.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setC_4.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setC_5.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setC_6.dds"
-				"gfx/models/portraits/asari/asari_outfit_setC_6a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_4.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_materialist_4a.dds"
 			}
 		}
 		
-		#"Luxury planets" dress fancy
+		#Spiritualist
 		random = {
 			trigger = {
-				or = {
-					planet = { has_planet_modifier = pm_atmospheric_aphrodisiac }
-					planet = { has_planet_modifier = pm_atmospheric_hallucinogen }
-					planet = { is_planet_class = pc_gaia }
-				}
-				nor = {
-					is_enslaved = yes
+				AND = {
+					has_ethic = ethic_spiritualist
+					is_enslaved = no
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_setD_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_1b.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setD_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2b.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setD_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3b.dds"
-				
-				"gfx/models/portraits/asari/asari_outfit_setD_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_4a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_spiritualist_2b.dds"
+			}
+		}
+		
+		#Militarist
+		random = {
+			trigger = {
+				AND = {
+					has_ethic = ethic_militarist
+					is_enslaved = no
+				}
+			}
+			list = {
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_militarist_3b.dds"
+			}
+		}
+		
+		#Pacifist
+		random = {
+			trigger = {
+				AND = {
+					has_ethic = ethic_pacifist
+					is_enslaved = no
+				}
+			}
+			list = {
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_pacifist_2b.dds"
+			}
+		}
+		
+		#Xenophile
+		random = {
+			trigger = {
+				AND = {
+					has_ethic = ethic_xenophile
+					is_enslaved = no
+				}
+			}
+			list = {
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3b.dds"
+			}
+		}
+		
+		#Xenophobe
+		random = {
+			trigger = {
+				AND = {
+					has_ethic = ethic_xenophobe
+					is_enslaved = no
+				}
+			}
+			list = {
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophobe_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophobe_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_generic_2.dds"
+			}
+		}
+		
+		#Hivemind
+		random = {
+			trigger = {
+				AND = {
+					has_ethic = ethic_hive_mind
+					is_enslaved = no
+				}
+			}
+			list = {
+				"gfx/models/portraits/asari/asari_outfit_pop_hive_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_hive_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_hive_2a.dds"
 			}
 		}
 		
@@ -268,9 +303,9 @@ asari_outfit = {
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_slaveD_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_slaveD_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_slaveD_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_domestic_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_domestic_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_domestic_1b.dds"
 			}
 		}
 		
@@ -282,7 +317,7 @@ asari_outfit = {
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_slaveB_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_battle_1.dds"
 			}
 		}
 		
@@ -294,8 +329,8 @@ asari_outfit = {
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_slaveC_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_slaveC_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_cattle_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_cattle_2.dds"
 			}
 		}
 		
@@ -307,8 +342,8 @@ asari_outfit = {
 				}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_slaveA_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_slaveA_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_chattel_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_slave_chattel_2.dds"
 			}
 		}
 		
@@ -320,57 +355,53 @@ asari_outfit = {
 		random = {
 			trigger = { leader_class = admiral }
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_admiral_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1b.dds"
 			}
 		}
 		
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_scientist_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_4a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_2a.dds"
 			}
 		}
 		
 		random = {
 			trigger = { leader_class = general }
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_general_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_4.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_3a.dds"
 			}
 		}
 		
 		random = {
 			trigger = { leader_class = governor }
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_governor_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3b.dds"
 			}
 		}
 	}
 	
 	#leader scope 
 	ruler = { #for rulers
-		default = "gfx/models/portraits/asari/asari_outfit_ruler_1.dds"
+		default = "gfx/models/portraits/asari/asari_outfit_leader_ruler_1.dds"
 		
 		# Military Governments
 		random = {
@@ -378,15 +409,14 @@ asari_outfit = {
 				owner = { has_authority = auth_dictatorial }
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_admiral_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_admiral_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_admiral_2a.dds"
 			}
 		}
 		
@@ -396,18 +426,18 @@ asari_outfit = {
 				owner = { has_authority = auth_oligarchic }
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_governor_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1b.dds"
 			}
 		}
 		 
@@ -417,24 +447,15 @@ asari_outfit = {
 				owner = { has_authority = auth_democratic }
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_governor_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_governor_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_generic_4b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_governor_3b.dds"
 			}
 		}
 		
@@ -444,32 +465,12 @@ asari_outfit = {
 				owner = { has_authority = auth_imperial }
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_setD_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_2b.dds"
 			}
 		}
 						
@@ -482,15 +483,9 @@ asari_outfit = {
 					}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_ruler_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_4b.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5a.dds"
-				"gfx/models/portraits/asari/asari_outfit_ruler_5b.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_ruler_1b.dds"
 			}
 		}
 						 
@@ -500,12 +495,11 @@ asari_outfit = {
 						owner = { has_government = gov_military_order  }
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_general_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_general_4.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_general_3a.dds"
 			}
 		}
 		
@@ -515,17 +509,15 @@ asari_outfit = {
 						owner = { has_government = gov_artist_enclave }
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_setD_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_1a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_1b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_2b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3a.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_3b.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_setD_4a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_1b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_2b.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3a.dds"
+				"gfx/models/portraits/asari/asari_outfit_pop_xenophile_3b.dds"
 			}
 		}
 		
@@ -538,11 +530,9 @@ asari_outfit = {
 					}
 			}
 			list = {
-				"gfx/models/portraits/asari/asari_outfit_scientist_1.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_2.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_3.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_4.dds"
-				"gfx/models/portraits/asari/asari_outfit_scientist_4a.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_1.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_2.dds"
+				"gfx/models/portraits/asari/asari_outfit_leader_scientist_2a.dds"
 			}
 		}
 	}

@@ -169,6 +169,7 @@ entity = {
 	locator = { name = "small_gun_02"	position = { 0 1.25 -14 } }
 	locator = { name = "small_gun_03"	position = { 0 1.25 -14 } }
 	locator = { name = "small_gun_04"	position = { 0 1.25 -14 } }
+	locator = { name = "strike_craft_locator_01"	position = { 0 1.25 -14 } }
 }
 
 entity = {
@@ -190,6 +191,7 @@ entity = {
 	locator = { name = "large_gun_02"	position = { 0 1.25 -14 } }
 	locator = { name = "medium_gun_01"	position = { 0 1.25 -14 } }
 	locator = { name = "medium_gun_02"	position = { 0 1.25 -14 } }
+	locator = { name = "strike_craft_locator_01"	position = { 0 1.25 -14 } }
 }
 
 #############
