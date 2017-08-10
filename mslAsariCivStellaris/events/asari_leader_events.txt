@@ -4,7 +4,7 @@
 
 #THIS EXPERIMENTAL SOLUTION IS HIGHLY UNSTBLE AND CURRENTLY DISABLED!
 
-namespace = asari_on_action
+namespace = asari_leader
 
 # Ensure that all generated leaders are female
 country_event = {
@@ -13,28 +13,50 @@ country_event = {
 	hide_window = yes
 
 	trigger = {
-		has_country_flag = asari_leader_check
 		from = {
 			species = { has_trait = trait_asari_gynogenetic }
 			gender = male
+			NOT = { leader_class = ruler }
 		}
 	}
 
 	immediate = {
+		every_owned_leader = {
+			if = {
+				limit = {
+					NOT = { leader_class = ruler }
+				}
+			set_leader_flag = asari_leader_check
+			}
+		}
 		from = {
+			If = {
+				limit = {
+					NOT = { has_leader_flag = asari_leader_check }
+				}
 			kill_leader = { show_notification = no }
-			#break = yes
+			}
 		}
 	}
 }
 
-# Delay leader gender checks until after the initial spawn (to avoid losing starting leaders)
+# Handle royal heirs separately because they're special snowflakes and a royal pain to scope in on
 country_event = {
 	id = asari_leader.2
 	is_triggered_only = yes
 	hide_window = yes
 
+	trigger = {
+		from = {
+			species = { has_trait = trait_asari_gynogenetic }
+			gender = male
+			leader_class = ruler
+		}
+	}
+
 	immediate = {
-		set_country_flag = asari_leader_check
+		from = {
+			kill_leader = { show_notification = no heir = yes }
+		}
 	}
 }

@@ -19,14 +19,9 @@ on_monthly_pulse = {
 	}
 }
 
-#on_leader_spawned = {
-#	events = {
-#		asari_leader.1
-#	}
-#}
-
-#on_press_begin = {
-#	events = {
-#		asari_leader.2
-#	}
-#}
+on_leader_spawned = {
+	events = {
+		asari_leader.1
+		asari_leader.2
+	}
+}
