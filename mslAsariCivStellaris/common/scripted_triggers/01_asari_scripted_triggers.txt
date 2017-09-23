@@ -1,7 +1,7 @@
 # Checks if a pop can procreate
 # This = Pop
 asari_can_pop_procreate = {
-	is_sentient = yes
+	is_sapient = yes
 	is_being_purged = no
 	has_population_control = no
 	is_robot_pop = no

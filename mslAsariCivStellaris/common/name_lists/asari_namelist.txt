@@ -20,6 +20,7 @@ asari_names = {
 			Diekasha Miyadri
 		}
 		destroyer = {
+			Nofreya Zenyr Aieste Moeennea Cheelo Jaedraa Iessaara Vonor Selao Amizra Kyus Raeltia Carev Miryxany Saseezley Dainaphia
 			Vak'tyr Caranna Feelpanar Sadaganna Clairmananda Boalasma Somarnille Lipassima Naclaslite Desperilla  Ellimea Lainthia
 			"Thorn of Illium" "Tevura's Hope" "Hyetiana's Vigilance" "Little Wing" "Flight of Indigo" "Lavender Sting" "Smiling Matron"
 			Moelnea Cheinais Riunha Testhyya Ishyxe Ji'shaze Nas'yata Kas'ko Nor'mona Asixne Nososte Luosphea Kysan Niavasa Valeesse
@@ -73,19 +74,21 @@ asari_names = {
 			"Nuekazea Moraara" "Freezithia Genrius" "Januyne Lyslerga" "Thanoci Letenthze" "Stayxelia Januris" "Eresphea Sedeli"
 			"Sarulmia Kyor" "Xaeesthea Jannila" "Tevthahin Skatari" "Keinmia Dritis" "Holtha M'Losava" "Falellzea Janiana"
 			"Limetsa T'Keis" "Lenese Maiza" "Poisa Arteara" "Yerimey T'Scaria" "Geley T'Scasi" "Ceessir D'Kyfi" "Lalerzia D'Biera"
+			"Faariux Beyne" "Nyxovara Caora" "Nointea Kal'Sasy" "Sarana M'Tasir" "Iessira Es'Irmia" "Edoni D'Bieria" "Ledase Jenes"
+			"Amithshi D'Bieyne" "In'meux Radira" "Ki'sate D'Veari" "Nularvley Miro" "Zeiyka D'Bielis" "Lidessma Coniva" "Luarir Kesir"
+			"Phethatea D'Coritis" "Kasharrae Jaria" "Voeezne Matoni" "Nulliha Ialliava" "Irollha Metis" "Pho'ra Diana" "Aleezux Edose"
 		}
 		SCX_Dreadnought = {
 			Ahlatania Kilitea Seunshi Cethyse Naslike Shisi Myxifete Eaanalea Aiestzia Seayya Ceryphia Eshlersa Lyneesthia Telyxphea
+			Eshlita Ishtharae Shieseus Selixha Keliylea Sarekane Numyrse Rililsha Sash'dazea Myrarix Iallilas Calira Lysixux Kydri
 		}
 		SCX_Superdreadnought = {
-			Eshlita Ishtharae Shieseus Selixha Keliylea Sarekane Numyrse Rililsha Sash'dazea Myrarix Iallilas Calira Lysixux Kydri
+			"Destiny Ascension" "Majesty Sublime" "Future Transcendent" "Eternity Immaculate" "Miracle Infinity" "Perfection Dominant"
+			"Halcyon Promise" "Eternity Vigilance" "Millenium Dawn" "Omniscient Infinite" "Awakening Symphony"
 		}
 		
 		#NSC classes
 		
-		Frigate = {
-			Nofreya Zenyr Aieste Moeennea Cheelo Jaedraa Iessaara Vonor Selao Amizra Kyus Raeltia Carev Miryxany Saseezley Dainaphia
-		}
 		StrikeCruiser = {
 			Yeeezmea Vaos Moumse Nythaus Shiari Tal'Mophea Ce'Phinea Shisir Moeenny Nurais Limanaya Moratari Halellshi Mirenthshi
 		}
@@ -110,13 +113,7 @@ asari_names = {
 		}
 		Flagship = {
 			"Destiny Ascension" "Majesty Sublime" "Future Transcendent" "Eternity Immaculate" "Miracle Infinity" "Perfection Dominant"
-		}
-		
-		ScienceCruiser = {
-			Zeeez Muravo Im'mehin Kyli Phaithnea Lidarvny Nosixu Toscadri Telada Cali Leenthphea Meeprirus Talisszea Nulerga Shiyne
-		}
-		ConstructionCruiser = {
-			Samaes Dato Hoithze Sethasha Dantiros Vonyxasa Iadri Ranana Enlika Erari Avenis Ininasha Teinh Drius Jinilka
+			"Halcyon Promise" "Eternity Vigilance" "Millenium Dawn" "Omniscient Infinite" "Awakening Symphony"
 		}
 		
 		Powerstation = {

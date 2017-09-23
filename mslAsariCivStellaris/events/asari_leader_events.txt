@@ -14,49 +14,14 @@ country_event = {
 
 	trigger = {
 		from = {
-			species = { has_trait = trait_asari_gynogenetic }
+			species = { is_species_class = ASA }
 			gender = male
-			NOT = { leader_class = ruler }
-		}
-	}
-
-	immediate = {
-		every_owned_leader = {
-			if = {
-				limit = {
-					NOT = { leader_class = ruler }
-				}
-			set_leader_flag = asari_leader_check
-			}
-		}
-		from = {
-			If = {
-				limit = {
-					NOT = { has_leader_flag = asari_leader_check }
-				}
-			kill_leader = { show_notification = no }
-			}
-		}
-	}
-}
-
-# Handle royal heirs separately because they're special snowflakes and a royal pain to scope in on
-country_event = {
-	id = asari_leader.2
-	is_triggered_only = yes
-	hide_window = yes
-
-	trigger = {
-		from = {
-			species = { has_trait = trait_asari_gynogenetic }
-			gender = male
-			leader_class = ruler
 		}
 	}
 
 	immediate = {
 		from = {
-			kill_leader = { show_notification = no heir = yes }
+			set_is_female = yes
 		}
 	}
 }

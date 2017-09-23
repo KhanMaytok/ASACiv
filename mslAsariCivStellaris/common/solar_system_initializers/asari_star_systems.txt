@@ -13,8 +13,18 @@ asr_system_initializer = {
 	
 	class = "sc_f"
 	asteroids_distance = 85
+	flags = { empire_home_system asari_parnitha_system }
 	
 	usage = custom_empire
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 	
 	planet = {
 		name = "Parnitha"
@@ -44,156 +54,14 @@ asr_system_initializer = {
 		has_ring = no
 		tile_blockers = none
 		modifiers = none
+		flags = { asari_planet_thessia }
 		
 		init_effect = {
 			prevent_anomaly = yes
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}				
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}						
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = { 
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}						
-					}
-					33 = { 
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}						
-					}
-					33 = { 
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}						
-					}					
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}						
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 2
-					replace = yes
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}				
-			}
+			generate_start_buildings_and_blockers = yes
 		}
 	}
 	
@@ -293,6 +161,15 @@ asr_neighbour_01 = {
 	name = "Ialessa"
 	class = sc_g
 	asteroids_distance = 55
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 
 	planet = {
 		count = 1
@@ -381,6 +258,15 @@ asr_neighbour_01 = {
 asr_neighbour_02 = {	
 	name = "Orisoni"
 	class = sc_g
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 
 	planet = {
 		name = "Orisoni"
@@ -453,6 +339,15 @@ asr_neighbour_02 = {
 asr_neighbour_03 = {
 	name = "Tomaros"
 	class = sc_g
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 
 	planet = {
 		name = "Tomaros"
@@ -525,6 +420,15 @@ asr_neighbour_04 = {
 	name = "Vernio"
 	class = sc_f
 	asteroids_distance = 90
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 
 	planet = {
 		name = "Vernio"
@@ -708,8 +612,18 @@ asi_system_initializer = {
 	
 	class = "sc_g"
 	asteroids_distance = 90
+	flags = { empire_home_system asari_tasale_system }
 	
 	usage = custom_empire
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 	
 	planet = {
 		name = "Tasale"
@@ -747,156 +661,14 @@ asi_system_initializer = {
 		has_ring = no
 		tile_blockers = none
 		modifiers = none
+		flags = { asari_planet_illium }
 		
 		init_effect = {
 			prevent_anomaly = yes
 		}
 		
 		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
-				add_resource = {
-					resource = energy
-					amount = 1
-					replace = yes
-				}				
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 2
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 1
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 1
-						replace = yes
-					}						
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
-					add_resource = {
-						resource = minerals
-						amount = 2
-						replace = yes
-					}						
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				random_list = {
-					33 = { 
-						add_resource = {
-							resource = engineering_research
-							amount = 1
-							replace = yes
-						}						
-					}
-					33 = { 
-						add_resource = {
-							resource = physics_research
-							amount = 1
-							replace = yes
-						}						
-					}
-					33 = { 
-						add_resource = {
-							resource = society_research
-							amount = 1
-							replace = yes
-						}						
-					}					
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_mining_network_1"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}						
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = engineering_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = society_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_failing_infrastructure"
-				add_resource = {
-					resource = physics_research
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = food
-					amount = 2
-					replace = yes
-				}					
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_decrepit_dwellings"
-				add_resource = {
-					resource = minerals
-					amount = 1
-					replace = yes
-				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_power_plant_1"
-				add_resource = {
-					resource = energy
-					amount = 2
-					replace = yes
-				}				
-			}
+			generate_start_buildings_and_blockers = yes
 		}
 	}
 	
@@ -990,6 +762,15 @@ asi_neighbour_01 = {
 	name = "Lusarn"
 	class = sc_a
 	asteroids_distance = 83
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 
 	planet = {
 		count = 1
@@ -1114,6 +895,15 @@ asi_neighbour_01 = {
 asi_neighbour_02 = {	
 	name = "Zelene"
 	class = sc_k
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 
 	planet = {
 		name = "Zelene"
@@ -1136,24 +926,24 @@ asi_neighbour_02 = {
 	
 	planet = {
 		name = "Helyme"
-		class = "pc_continental"
+		class = "pc_nuked"
 		orbit_distance = 20
 		orbit_angle = 45
 		size = 16
 		has_ring = no
 		entity = "alpine_planet_02_entity"
 		
-		init_effect = {
-			prevent_anomaly = yes
-			add_modifier = {
-   				modifier = hazardous_weather 
-  				days = -1
-			}
-			add_modifier = {
-   				modifier = wild_storms 
-  				days = -1
-			}
-		}
+		#init_effect = {
+		#	prevent_anomaly = yes
+		#	add_modifier = {
+   		#		modifier = hazardous_weather 
+  		#		days = -1
+		#	}
+		#	add_modifier = {
+   		#		modifier = wild_storms 
+  		#		days = -1
+		#	}
+		#}
 	}
 	
 	planet = {
@@ -1204,6 +994,15 @@ asi_neighbour_02 = {
 asi_neighbour_03 = {
 	name = "Ondeste"
 	class = sc_m
+	
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
 
 	planet = {
 		name = "Ondeste"

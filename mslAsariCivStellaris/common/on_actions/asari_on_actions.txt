@@ -7,11 +7,11 @@ empire_init_add_technologies = {
 	}
 }
 
-on_game_start = {
-	events = {
-		asari_setup.2
-	}
-}
+#on_game_start = {
+#	events = {
+#		asari_setup.2
+#	}
+#}
 
 on_monthly_pulse = {
 	events = {
@@ -22,6 +22,5 @@ on_monthly_pulse = {
 on_leader_spawned = {
 	events = {
 		asari_leader.1
-		asari_leader.2
 	}
 }

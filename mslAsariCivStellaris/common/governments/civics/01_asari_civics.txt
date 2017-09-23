@@ -15,7 +15,7 @@
 civic_asari_biotic_evo = {
 	modification = no
 	icon = "gfx/interface/icons/asari/civic_asari_biotic.dds"
-	potential = { ethics = { NOT = { value = ethic_hive_mind } } }
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
 	possible = {}
 	random_weight = {
 		base = 0
@@ -32,9 +32,10 @@ civic_asari_biotic_evo = {
 
 	description = "civic_asari_tooltip_biotic_evo_effects"
 	modifier = {
-		category_psionics_research_speed_mult = 0.10
-		category_field_manipulation_research_speed_mult = 0.10
+		country_physics_tech_research_speed  = 0.15
+		#pop_ethic_spiritualist_attraction_mult = -0.15
+		#tile_building_resource_physics_research_add = 1
+		#category_psionics_research_speed_mult = 0.10
+		#category_field_manipulation_research_speed_mult = 0.10
 	}
-	#used when starting a new game to give techs and robot pops
-	#see game_start.7 and game_start.8
 }

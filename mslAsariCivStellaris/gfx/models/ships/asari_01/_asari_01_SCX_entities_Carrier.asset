@@ -73,7 +73,7 @@ entity = {
 
 entity = {
 	name = "asari_01_SCX_Carrier_mid1_L2S4_entity"
-	pdxmesh = "asari_01_heavycarrier_mesh"
+	pdxmesh = "asari_01_lightcarrier_mesh"
 	
 	default_state = "idle"
 	state = { name = "idle" 	state_time = 5	
@@ -101,7 +101,7 @@ entity = {
 
 entity = {
 	name = "asari_01_SCX_Carrier_mid1_S4LHB_entity"
-	pdxmesh = "asari_01_heavycarrier_mesh"
+	pdxmesh = "asari_01_lightcarrier_mesh"
 	
 	default_state = "idle"
 	state = { name = "idle" 	state_time = 5	

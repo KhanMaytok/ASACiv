@@ -7,12 +7,17 @@ trait_asari_age = {
 	modification = yes
 	randomized = no
 	icon = "gfx/interface/icons/asari/trait_asari_age.dds"
+	
+	leader_age_min = 200
+	leader_age_max = 700
+	
 	modifier = {
-		leader_age = 450
+		leader_age = 900
 		leader_influence_cost = 1.00
 		species_leader_exp_gain = -0.50
 	}
 	opposites = { "trait_enduring" "trait_venerable" "trait_fleeting" "trait_quick_learners" "trait_slow_learners" }
+	allowed_classes = { ASA }
 }
 
 trait_asari_gynogenetic = {
@@ -25,4 +30,5 @@ trait_asari_gynogenetic = {
 	}
 	custom_tooltip = TRAIT_ASARI_GYNOGENETIC_EFFECT
 	opposites = { "trait_slow_breeders" "trait_rapid_breeders" }
+	allowed_classes = { ASA }
 }

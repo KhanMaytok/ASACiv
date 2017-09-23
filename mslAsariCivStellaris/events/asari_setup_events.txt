@@ -18,22 +18,22 @@ country_event = {
 ### This event makes all Asari empires identify as the same species
 ### Contributed by had
 
-country_event = {
-    id = asari_setup.2
-    hide_window = yes
-    fire_only_once = yes
+#country_event = {
+#    id = asari_setup.2
+#    hide_window = yes
+#    fire_only_once = yes
  
-    immediate = {
-        random_country = {
-            limit = { is_species_class = ASA }
-            species = { save_event_target_as = asari_species }
-        }
-        every_country = {
-            limit = {
-                is_species_class = ASA
-                species = { not = { is_same_value = event_target:asari_species } }
-            }
-            species = { set_species_identity = event_target:asari_species }
-        }
-    }
-}
+#    immediate = {
+#        random_country = {
+#            limit = { is_species_class = ASA }
+#            species = { save_event_target_as = asari_species }
+#        }
+#        every_country = {
+#            limit = {
+#                is_species_class = ASA
+#                species = { not = { is_same_value = event_target:asari_species } }
+#            }
+#            species = { set_species_identity = event_target:asari_species }
+#        }
+#    }
+#}
