@@ -56,7 +56,7 @@
  ####################################
  civic_asari_biotic_evo:0 "Biotic Evolution"
  civic_asari_biotic_evo_desc:0 "This society originated on a world rich with Element Zero, which created ideal conditions for the evolutionary development of dark energy manipulation abilities in many native lifeforms."
- civic_asari_tooltip_biotic_evo_effects:1 "Start the game with the §YPsionic Theory§! technology\nPhysics Research Speed: §G+15%§!"
+ civic_asari_tooltip_biotic_evo_effects:1 "Start the game with the §YPsionic Theory§! technology\nResearch Speed (£physics  Physics): §G+15%§!"
  ####################################
  # Modifiers
  ####################################

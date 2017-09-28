@@ -4,6 +4,7 @@
 
 trait_asari_age = {
 	cost = 4
+	allowed_archetypes = { BIOLOGICAL }
 	modification = yes
 	randomized = no
 	icon = "gfx/interface/icons/asari/trait_asari_age.dds"
@@ -17,11 +18,11 @@ trait_asari_age = {
 		species_leader_exp_gain = -0.50
 	}
 	opposites = { "trait_enduring" "trait_venerable" "trait_fleeting" "trait_quick_learners" "trait_slow_learners" }
-	allowed_classes = { ASA }
 }
 
 trait_asari_gynogenetic = {
 	cost = -2
+	allowed_archetypes = { BIOLOGICAL }
 	modification = yes
 	randomized = no
 	icon = "gfx/interface/icons/asari/trait_asari_gynogenetic.dds"
@@ -30,5 +31,4 @@ trait_asari_gynogenetic = {
 	}
 	custom_tooltip = TRAIT_ASARI_GYNOGENETIC_EFFECT
 	opposites = { "trait_slow_breeders" "trait_rapid_breeders" }
-	allowed_classes = { ASA }
 }
