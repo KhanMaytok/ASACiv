@@ -6,6 +6,8 @@ asariillium_civ = {
 	name_list = "asari_names"
 	ship_prefix = ""
 	
+	advisor_voice_type = "l_pacifist"
+	
 	species_name = "Asari"
 	species_plural = "Asari"
 	species_adjective = "Asari"
@@ -56,8 +58,8 @@ asariillium_civ = {
 	ruler={
 		gender = female
 		name = "Selesta T'Zeala" #"Ishta Linnadhiel"
-		portrait = "asari_2"
-		texture = 5
+		portrait = "asari_1"
+		texture = 3
 		hair = 0
 		clothes = 11
 		ruler_title = "Chief Executive Officer"
@@ -72,6 +74,8 @@ asarirepublics_civ = {
 	
 	name_list = "asari_names"
 	ship_prefix = ""
+	
+	advisor_voice_type = "l_xenophile"
 	
 	species_name = "Asari"
 	species_plural = "Asari"

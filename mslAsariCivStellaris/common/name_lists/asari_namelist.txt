@@ -141,8 +141,9 @@ asari_names = {
 
 	fleet_names = {
 		random_names = {
-			"Huntresses Squadron" "First Biotics Squadron" "Dark Zapphire Squadron" "Altlantar Squadron" "Ypmadanr Squadron"
-			"Blue Modrons" "Gladampal Squadron" "Pleechian Squadron" "Shimmering Squadron"
+			"Dark Zapphire Fleet" "Altlantar Fleet" "Ypmadanr Fleet" "Gladampal Fleet" "Pleechian Fleet" "Shimmering Fleet"
+			"Banshee Fleet" "Varren Fleet" "Letuntia Fleet" "Lueynea Fleet" "Dantinis Fleet" "Ceithmey Fleet" "Eaucphia Fleet"
+			"Ceriphia Fleet" "Shiiao Fleet" "Siorne Fleet" "Eshfines Fleet" "Shiell Fleet" "Esesttea Fleet" "Tariraka Fleet"
 		}
 		sequential_name = "%O% Fleet"
 	}
