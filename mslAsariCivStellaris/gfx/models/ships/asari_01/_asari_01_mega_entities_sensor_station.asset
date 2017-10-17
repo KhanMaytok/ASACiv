@@ -2,7 +2,7 @@
 ## ASARI SENSOR STATION ##
 ##########################
 
-@sensor_scale = 0.7
+@sensor_scale = 0.75
 
 #######################
 #### STATION PARTS ####

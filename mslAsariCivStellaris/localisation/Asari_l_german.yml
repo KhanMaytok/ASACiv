@@ -50,7 +50,7 @@
  trait_asari_age_desc:0 "§LMembers of this species owe extreme longevity to cellular rejuvenation, but also go through many biological, psychological and social stages of maturity throughout their lives.§!\n"
  trait_asari_gynogenetic:0 "Gynogenetic"
  trait_asari_gynogenetic_desc:0 "§LThis species reproduces through a form of parthenogenesis in which they use the genetic map of alien species to diversify the genetic makeup of their offspring.§!\n"
- TRAIT_ASARI_GYNOGENETIC_EFFECT:0 "Base Growth Speed: §R-30%§!\nGrowth Speed From Alien Pops: §G+2%§!"
+ TRAIT_ASARI_GYNOGENETIC_EFFECT:0 "Base Growth Speed: §R-40%§!\nGrowth Speed From Alien Pops: §G+4%§!"
  ####################################
  # Civics
  ####################################

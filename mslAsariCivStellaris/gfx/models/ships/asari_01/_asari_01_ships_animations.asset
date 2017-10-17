@@ -1,38 +1,3 @@
-################
-## MASS RELAY ##
-################
-animation = {
-	name = "asari_01_mass_relay_idle_animation"
-	file = "asari_01_mass_relay_idle.anim"
-}
-
-##########################
-## ASARI SENSOR STATION ##
-##########################
-animation = {
-	name = "asari_01_sensor_station_frame_construction_animation"
-	file = "asari_01_sensor_station_frame_construction.anim"
-}
-
-animation = {
-	name = "asari_01_sensor_station_frame_idle_animation"
-	file = "asari_01_sensor_station_frame_idle.anim"
-}
-
-
-#################
-# ASARI HABITAT #
-#################
-animation = {
-	name = "asari_01_habitat_frame_idle_animation"
-	file = "asari_01_habitat_frame_idle.anim"
-}
-
-animation = {
-	name = "asari_01_habitat_frame_construction_animation"
-	file = "asari_01_habitat_frame_construction.anim"
-}
-
 #############
 ## GENERIC ##
 #############
@@ -80,21 +45,6 @@ animation = {
 animation = {
 	name = "asari_01_construction_working_animation"
 	file = "asari_01_construction_working_start.anim"
-}
-
-animation = {
-	name = "asari_01_terraforming_station_rotate_animation"
-	file = "asari_01_terraforming_station_rotate.anim"
-}
-
-animation = {
-	name = "asari_01_terraforming_station_death_animation"
-	file = "asari_01_terraforming_station_death.anim"
-}
-
-animation = {
-	name = "asari_01_orbital_station_refinery_section_rotate_animation"
-	file = "asari_01_orbital_station_refinery_section_rotate.anim"
 }
 
 

@@ -66,6 +66,66 @@ objectTypes = {
 		scale = 1.0		
 	}
 	
+	#################
+	## ASARI NEXUS ##
+	#################
+	
+	## CENTRAL FRAME ##
+	pdxmesh = {
+		name = "asari_01_nexus_frame_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_nexus_frame.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle" type = "asari_01_nexus_frame_idle_animation" }
+	}
+	
+	## PHASE 1 ##
+	
+	# CENTRAL CORE
+	pdxmesh = {
+		name = "asari_01_nexus_phase1_core_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_nexus_phase1_core.mesh"
+		scale = 1.0
+	}
+	
+	# DOME
+	pdxmesh = {
+		name = "asari_01_nexus_phase1_dome_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_nexus_phase1_dome.mesh"
+		scale = 1.0
+	}
+	
+	# OUTER RING
+	pdxmesh = {
+		name = "asari_01_nexus_phase1_outer_ring_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_nexus_phase1_outer_ring.mesh"
+		scale = 1.0
+	}
+	
+	# INNER RING
+	pdxmesh = {
+		name = "asari_01_nexus_phase1_inner_ring_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_nexus_phase1_inner_ring.mesh"
+		scale = 1.0
+	}
+	
+	## PHASE 2 ##
+	
+	pdxmesh = {
+		name = "asari_01_nexus_phase2_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_nexus_phase2.mesh"
+		scale = 1.0
+	}
+	
+	## PHASE 3 ##
+	
+	pdxmesh = {
+		name = "asari_01_nexus_phase3_mesh"
+		file = "gfx/models/ships/asari_01/asari_01_nexus_phase3.mesh"
+		scale = 1.0
+	}
+	
+	
 	###################
 	## ASARI HABITAT ##
 	###################

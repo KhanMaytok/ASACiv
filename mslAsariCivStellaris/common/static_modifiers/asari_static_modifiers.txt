@@ -1,10 +1,10 @@
 # Parthenogenesis (mother pop modifier)
 asari_cross_fertilised = {
-	pop_growth_speed = 0.02
+	pop_growth_speed = 0.04
 }
 
 asari_cross_fertilised_xphi = {
-	pop_growth_speed = 0.03
+	pop_growth_speed = 0.06
 }
 
 # Parthenogenesis (fertiliser pop modifier)

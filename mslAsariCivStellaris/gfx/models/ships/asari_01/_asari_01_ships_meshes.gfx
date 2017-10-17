@@ -275,13 +275,13 @@ objectTypes = {
 	pdxmesh = {
 		name = "asari_01_bomber2_mesh"
 		file = "gfx/models/ships/asari_01/asari_01_corvette1.mesh"
-		scale = 0.3
+		scale = 0.25
 	}
 	
 	pdxmesh = {
 		name = "asari_01_fighter2_mesh"
 		file = "gfx/models/ships/asari_01/asari_01_corvette1.mesh"
-		scale = 0.3
+		scale = 0.25
 	}
 	
 	#################################################
@@ -490,6 +490,7 @@ objectTypes = {
 		scale = 8.0
 		
 		animation = { id = "idle" type = "asari_01_mass_relay_idle_animation" }
+		animation = { id = "death" type = "asari_01_mass_relay_death_animation" }
 	}
 	
 	# Mass Relay Station Construction

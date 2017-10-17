@@ -215,6 +215,10 @@ asari_names = {
 				Araha Suha Cyx Cess Herenya Limwen Viuk Aviuk Zara Lona Kuru Maerwen Tacca Salenthne Morenthse Mirfin Eshelus
 			}
 		}
+		pc_savannah = {
+			names = {
+			}
+		}
 		pc_tropical = {
 			names = {
 				Zuna Avles Hutah Namara Erbra Nimwen Sanya Mua Santiel Orebla Sor Sko Medis Lobra Silima Caga Deo Dala Meeri
@@ -265,6 +269,22 @@ asari_names = {
 				"New Samos" Mikino Neos Bergama Ezine Ablania Grecca Antalya Fethiye Leganas Galaxidi Thermos Psachna Lehana
 				Thessaloniki Thesselonika Makeda Maceda Constantinopa Valas Archea Folkai Sparti Jalma Geada Suina Kefalonia
 				Zima Kalmata Kalma Tali Teli Atwix Sepsos Marathopoli Lepidus Lepidos Lividia Athen Rafina Ravina
+			}
+		}
+		pc_alpine = {
+			names = {
+			}
+		}
+		pc_nuked = {
+			names = {
+			}
+		}
+		pc_ai = {
+			names = {
+			}
+		}
+		pc_machine = {
+			names = {
 			}
 		}
 		
